@@ -1,8 +1,8 @@
 # MPM4STL
 
-We propose a new monitoring approach, called **model predictive monitoring**, for specifications described by Signal Temporal Logic (STL) formulae. The paper titled "Model Predictive Monitoring of Dynamic Systems for Signal Temporal Logic Specifications" can be found in [link].
+We propose a new monitoring approach, called **Model Predictive Monitoring**, for specifications described by Signal Temporal Logic (STL) formulae. The paper titled "Model Predictive Monitoring of Dynamic Systems for Signal Temporal Logic Specifications" can be found in [link].
 
-We illustrate our our framework by applying it to four different case studies: building temperature control (case 1), double integrator (case 2), nonholonomic mobile robot (case 3) and spacecraft rendezvous (case 4), where offline computation process codes can be found in this repository. 
+We illustrate our framework by applying it to four different case studies: building temperature control (case 1), double integrator (case 2), nonholonomic mobile robot (case 3) and spacecraft rendezvous (case 4), where offline computation process codes can be found in this repository. 
 
 #### Offline computation time
 
@@ -12,9 +12,9 @@ We run the code by CPU Intel (R) Core (TM) i5-8400 CPU @ 2.80GHz. For the comput
 
 We export all the feasible and satisfiable sets data to file `results.jld` in the last three cases. Please feel free to contact me by email yuxinyi-12@sjtu.edu.cn if your want to get them.
 
-We also plot the feasible and satisfiable sets results in the form of figure (case 1) and animation (case 2, 3 and 4), which can be found in the folder `offline results` [link](https://github.com/Xinyi-Yu/MPM4STL/tree/main/offlineresults). Note that in last three cases, the offline results shown in the animation is the projection to 2 dimensions and you can also plot feasible sets in other dimensions by your own. 
+We also plot the feasible and satisfiable sets results in the form of figure (case 1) and animation (case 2, 3 and 4), which can be found in the folder `offline results` [link](https://github.com/Xinyi-Yu/MPM4STL/tree/main/offline%20results). Note that in last three cases, the offline results shown in the animation is the projection to 2 dimensions and you can also plot them in other dimensions by your own. 
 
-(Currently, the codes and animations of last three cases are still ongoing and I will publish them as soon as possible.)
+(Currently, the codes and animations of last three cases still needs some refinement and I will publish them as soon as possible.)
 
 #### Dependencies
 

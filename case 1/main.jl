@@ -18,5 +18,6 @@ X_2_fz, X_1and2_fz = off_comp(1)
 X_2_sat, X_1and2_sat = off_comp(2)
 
 draw(X_2_fz, X_1and2_fz, X_2_sat, X_1and2_sat)
+Plots.png("figure_case1_offlineresults")
 draw_lines()
 Plots.png("figure_case1")
